@@ -28,12 +28,6 @@ Mimic is an Android-native motion capture application that records human body mo
 *   **Toggleable Gesture Controls:** Configurable settings to toggle remote motion triggers (like the Cross-Arm "Stop" gesture) allowing actors to T-Pose or perform naturally without prematurely ending their sessions.
 *   **Native BVH Export:** Currently, the app exports structured JSON payload. A local builder compiles this JSON into a standard Biovision Hierarchy (`.bvh`) skeleton file on-device cleanly through the Export Menu.
 
-## 🔜 Yet to be Added (Planned Features)
-
-While the core tracking and architecture is incredibly robust, the following features are actively under development:
-
-*   **Subject Locking (ROI Photobomb Rejector):** Bounding box isolation to prevent the tracker from snapping to background individuals during a session.
-*   **Probabilistic Preflight & Quality Swapping:** Dynamically shifting the camera resolution between 1080p and 480p based on thermal and memory survival indexing.
 
 ## Privacy & Safety 🔒
 
